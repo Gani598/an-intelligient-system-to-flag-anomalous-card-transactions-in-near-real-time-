@@ -1,0 +1,81 @@
+{
+  "model_name": "Logistic Regression + SMOTE",
+  "trained_at": "2026-11-01T22:25:54.427724",
+  "dataset_total": 284807,
+  "dataset_fraud_count": 492,
+  "dataset_fraud_ratio": 0.001727485630620034,
+  "smote_train_samples": 454902,
+  "decision_threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.9741,
+    "precision": 0.0578,
+    "recall": 0.9184,
+    "f1_score": 0.1088,
+    "roc_auc": 0.9708,
+    "pr_auc": 0.7245,
+    "confusion_matrix": {
+      "true_negative": 55397,
+      "false_positive": 1467,
+      "false_negative": 8,
+      "true_positive": 90
+    }
+  },
+  "baseline_comparison": {
+    "precision": 0.8267,
+    "recall": 0.6327,
+    "f1_score": 0.7168,
+    "pr_auc": 0.7414
+  },
+  "top_predictive_features": [
+    {
+      "feature": "Amount",
+      "coefficient": 2.270462292960467,
+      "abs_importance": 2.270462292960467
+    },
+    {
+      "feature": "V1",
+      "coefficient": 1.8153848854160315,
+      "abs_importance": 1.8153848854160315
+    },
+    {
+      "feature": "V10",
+      "coefficient": -1.713829859538508,
+      "abs_importance": 1.713829859538508
+    },
+    {
+      "feature": "V14",
+      "coefficient": -1.6290453403412657,
+      "abs_importance": 1.6290453403412657
+    },
+    {
+      "feature": "V4",
+      "coefficient": 1.5844241188655557,
+      "abs_importance": 1.5844241188655557
+    },
+    {
+      "feature": "V5",
+      "coefficient": 1.294253697995428,
+      "abs_importance": 1.294253697995428
+    },
+    {
+      "feature": "V17",
+      "coefficient": -1.1492172933866194,
+      "abs_importance": 1.1492172933866194
+    },
+    {
+      "feature": "V12",
+      "coefficient": -1.0866328304321458,
+      "abs_importance": 1.0866328304321458
+    },
+    {
+      "feature": "V16",
+      "coefficient": -1.0775601885718686,
+      "abs_importance": 1.0775601885718686
+    },
+    {
+      "feature": "V20",
+      "coefficient": -1.008791313932512,
+      "abs_importance": 1.008791313932512
+    }
+  ]
+}
